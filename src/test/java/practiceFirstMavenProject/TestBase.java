@@ -13,7 +13,7 @@ public class TestBase {
 	
 	@BeforeSuite
 	public void initializeWebDriver() {
-		System.setProperty("webdriver.chrome.driver", "\\src\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
 		// To maximize browser
